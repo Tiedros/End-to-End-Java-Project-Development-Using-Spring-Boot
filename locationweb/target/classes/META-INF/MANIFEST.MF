@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: locationweb
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Prince
+Implementation-Vendor-Id: com.tiedros.location
+Build-Jdk: 1.8.0_40-ea
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/locationweb
+Created-By: Maven Integration for Eclipse
+
