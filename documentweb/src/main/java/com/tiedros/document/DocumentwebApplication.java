@@ -1,12 +1,12 @@
-package com.bharath.flightcheckin;
+package com.tiedros.document;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FlightcheckinApplication {
+public class DocumentwebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FlightcheckinApplication.class, args);
+		SpringApplication.run(DocumentwebApplication.class, args);
 	}
 }

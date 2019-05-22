@@ -15,10 +15,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class EmailUtil {
-	@Value("${com.bharath.flightreservation.itinerary.email.body}")
+	@Value("${com.tiedros.flightreservation.itinerary.email.body}")
 	private String EMAIL_BODY = "Please find your Itinerary attached.";
 
-	@Value("${com.bharath.flightreservation.itinerary.email.subject}")
+	@Value("${com.tiedros.flightreservation.itinerary.email.subject}")
 	private String EMAIL_SUBJECT = "Itinerary for your Flight";
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(EmailUtil.class);

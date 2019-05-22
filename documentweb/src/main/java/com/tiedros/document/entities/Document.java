@@ -1,4 +1,4 @@
-package com.bharath.document.entities;
+package com.tiedros.document.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

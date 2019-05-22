@@ -1,4 +1,4 @@
-package com.bharath.document.controllers;
+package com.tiedros.document.controllers;
 
 import java.io.IOException;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 
-import com.bharath.document.entities.Document;
-import com.bharath.document.repos.DocumentRepository;
+import com.tiedros.document.entities.Document;
+import com.tiedros.document.repos.DocumentRepository;
 
 @Controller
 public class DocumentController {
@@ -51,7 +51,7 @@ public class DocumentController {
 
 	@RequestMapping("/download")
 	public StreamingResponseBody download(@RequestParam("id") long id, HttpServletResponse response) {
-		Document document = repository.findOne(id);
+		Document document = repository.findById(id).get();
 		byte[] data = document.getData();
 
 		response.setHeader("Content-Disposition", "attachment;filename=downloaded.jpeg");

@@ -1,4 +1,4 @@
-package com.bharath.flightcheckin.controllers;
+package com.tiedros.flightcheckin.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,9 +6,9 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.bharath.flightcheckin.integration.ReservationRestClient;
-import com.bharath.flightcheckin.integration.dto.Reservation;
-import com.bharath.flightcheckin.integration.dto.ReservationUpdateRequest;
+import com.tiedros.flightcheckin.integration.ReservationRestClient;
+import com.tiedros.flightcheckin.integration.dto.Reservation;
+import com.tiedros.flightcheckin.integration.dto.ReservationUpdateRequest;
 
 @Controller
 public class CheckInController {

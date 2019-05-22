@@ -20,7 +20,7 @@ import com.tiedros.flightreservation.util.PDFGenerator;
 @Service
 public class ReservationServiceImpl implements ReservationService {
 
-	@Value("${com.bharath.flightreservation.itinerary.dirpath}")
+	@Value("${com.tiedros.flightreservation.itinerary.dirpath}")
 	private String ITINERARY_DIR;
 
 	@Autowired

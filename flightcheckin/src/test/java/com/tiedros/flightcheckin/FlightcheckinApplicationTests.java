@@ -1,4 +1,4 @@
-package com.bharath.flightcheckin;
+package com.tiedros.flightcheckin;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

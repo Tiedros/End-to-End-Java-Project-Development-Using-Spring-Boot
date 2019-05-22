@@ -1,10 +1,10 @@
-package com.bharath.flightcheckin.integration;
+package com.tiedros.flightcheckin.integration;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.bharath.flightcheckin.integration.dto.Reservation;
-import com.bharath.flightcheckin.integration.dto.ReservationUpdateRequest;
+import com.tiedros.flightcheckin.integration.dto.Reservation;
+import com.tiedros.flightcheckin.integration.dto.ReservationUpdateRequest;
 
 @Component
 public class ReservationRestClientImpl implements ReservationRestClient {
